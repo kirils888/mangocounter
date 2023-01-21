@@ -1,0 +1,22 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="max-width">
+            <div class="submit-box">
+                <h1>How many mangos you ate today Anastasia?</h1>
+                <h2 id="count-el">0</h2>
+                <div class="btn-wrapper">
+                    <button id="increment-btn" onclick="increment()">EAT MANGO 🥭</button>
+                    <button id="save-btn" onclick="save()">TRACK MANGOS</button>
+                </div>
+                <p id="save-el" style="display: none;">How many mangos you ate: </p>
+            </div>
+            <div id="warning-box" style="display: none;">
+                <p id="warning-el">OMG, Paul Chek wouldn't be happy, YOU ATE TO MANY!🤮<span>Eating mango in excess can cause diarrhea 💩 as it contains a high amount of fibre and excess consumption of fibrous fruits.</span></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
